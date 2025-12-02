@@ -1,0 +1,17 @@
+package gr.aueb.cf.cf9.ch7;
+
+import java.awt.desktop.SystemEventListener;
+import java.util.Scanner;
+
+public class StrTrim {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String firstname = "";
+
+        System.out.println("Please enter your first name: ");
+        firstname = scanner.nextLine().trim();
+
+        System.out.println(firstname);
+    }
+}
