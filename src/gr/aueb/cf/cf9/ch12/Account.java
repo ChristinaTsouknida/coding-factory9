@@ -100,7 +100,7 @@ public class Account {
             if (!isSsnValid(ssn)) throw new Exception("This SSN does not match");
             balance -= amount;
         } catch (Exception e) {
-            System.err.println("Withdrawl failed: " + "%n" + e.getMessage());
+            System.err.println("Withdrawal failed: " + "\n" + e.getMessage());
             throw e;
         }
     }
