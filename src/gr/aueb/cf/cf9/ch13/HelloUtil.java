@@ -1,0 +1,16 @@
+package gr.aueb.cf.cf9.ch13;
+
+/**
+ * Utility classes are non-instantiable.
+ * They provide public static methods only.
+ */
+public class HelloUtil {
+
+    private HelloUtil() {
+
+    }
+
+    public static void sayHello() {
+        System.out.println("Hello Coding!!");
+    }
+}
