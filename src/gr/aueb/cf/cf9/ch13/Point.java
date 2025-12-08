@@ -25,9 +25,9 @@ public class Point {
     }
 
     public static Point getRandomPoint() {
-        final int BOUND = 101;
+        final int BOUND = 100;
         Random random = new Random(System.nanoTime());
-        return new Point(random.nextInt(BOUND) + 1, random.nextInt(BOUND));
+        return new Point(random.nextInt(BOUND -1 + 1) + 1, random.nextInt(BOUND - 1 + 1) + 1);
 
     }
 }
