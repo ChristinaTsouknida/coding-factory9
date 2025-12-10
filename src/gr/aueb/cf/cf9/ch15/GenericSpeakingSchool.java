@@ -1,0 +1,13 @@
+package gr.aueb.cf.cf9.ch15;
+
+public class GenericSpeakingSchool {
+    private final ISpeakable iSpeakable;
+
+    public GenericSpeakingSchool(ISpeakable iSpeakable) {
+        this.iSpeakable = iSpeakable;
+    }
+
+    public void speak() {
+        iSpeakable.speak();
+    }
+}
