@@ -4,9 +4,7 @@ public abstract class Animal {
     private long id;
     private String name;
 
-
-    private Animal() {
-
+    public Animal() {
     }
 
     public Animal(long id, String name) {
@@ -32,8 +30,7 @@ public abstract class Animal {
 
     public abstract void speak();
 
-    public void ear() {
+    public void eat() {
         System.out.println("Eating...");
     }
-
 }
