@@ -1,14 +1,8 @@
 package gr.aueb.cf.cf9.ch15.skeletal_impl;
 
-public class AbstractRectangle implements IRectangle {
+public abstract class AbstractRectangle implements IRectangle {
     private double width;
     private double height;
-
-
-    public AbstractRectangle(double width, double height) {
-        this.width = width;
-        this.height = height;
-    }
 
     public double getWidth() {
         return width;
