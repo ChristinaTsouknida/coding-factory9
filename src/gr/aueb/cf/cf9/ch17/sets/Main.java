@@ -21,6 +21,7 @@ public class Main {
             System.out.println("Apple not included in the bag.");
         }
 
+        bag.removeIf(item -> item.startsWith("b"));
         bag.forEach(System.out::println);
     }
 }
