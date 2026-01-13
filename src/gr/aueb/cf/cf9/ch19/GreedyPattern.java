@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class GreedyPattern {
 
     public static void main(String[] args) {
-        String str = "login;alice;123456;pass;12345;";
+        String str = "login;alice;pass;12345;";
 
         Pattern pattern = Pattern.compile(".*;");
         Matcher matcher = pattern.matcher(str);
